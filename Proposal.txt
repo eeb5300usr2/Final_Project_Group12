@@ -2,6 +2,9 @@ Subject ID 11748-0 at disease time points 2-5, Female, age range ~0-11 years
 
 
 Overview & Motivation:
+  Those who have Type 1 Diabetes do not produce a sufficient amount of insulin. While this is mainly diagnosed in children, teens, and young adults, it actually can
+  develope at any age (https://www.cdc.gov/diabetes/basics/what-is-type-1-diabetes.html). 
+
 Initial Questions:
 Data:
 Workflow / Analysis:
