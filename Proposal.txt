@@ -2,9 +2,18 @@ Subject ID 11748-0 at disease time points 2-5, Female, age range ~0-11 years
 
 
 Overview & Motivation:
-  Those who have Type 1 Diabetes do not produce a sufficient amount of insulin. While this is mainly diagnosed in children, teens, and young adults, it actually can
-  develope at any age (https://www.cdc.gov/diabetes/basics/what-is-type-1-diabetes.html). 
+  Those who have Type 1 Diabetes (T1D) do not produce a sufficient amount of insulin. While this is mainly diagnosed in children, teens, and young adults, it
+  actually can develop at any age (https://www.cdc.gov/diabetes/basics/what-is-type-1-diabetes.html). 
 
 Initial Questions:
+  1.) What are the differences in DNA methylation patterns in subjects with T1D and healthy individuals (control)?
+  2.) How can we assess the accuracy and/or completeness of the data using tools we have learned in class?
+  3.)
+
 Data:
+  Currently working this out -- trying to finalize where data will come from and what exactly we want to use.
+
 Workflow / Analysis:
+  -Potentially use R to analyze / view Illumina data from published study
+  -Develop user-friendly graphic to display differences
+  -Analyze accuracy / completeness of data
