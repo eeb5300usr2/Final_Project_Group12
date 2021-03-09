@@ -1,13 +1,16 @@
 Overview & Motivation:
   Those who have Type 1 Diabetes (T1D) do not produce insulin. While this is mainly diagnosed in children, teens, and young adults, it
-  actually can develop at any age (https://www.cdc.gov/diabetes/basics/what-is-type-1-diabetes.html).
+  actually can develop at any age (https://www.cdc.gov/diabetes/basics/what-is-type-1-diabetes.html). Type 2 diabetes (T2D) is classified by reduced insulin
+  production. This type is usually diagnosed in older adults, but like T1D it can also be diagnosed at any age (https://www.mayoclinic.org/diseases-conditions/type
+  -2-diabetes/symptoms-causes/syc-20351193).
   
   Both of us were interested in exploring methylation differences and its contribution to disease. We chose diabetes because we are curious to see if alternative
-  methylation is a main factor in differential insulin production (producing none at all, very little, and a normal amount).
+  methylation is a main factor in differential insulin production (producing none at all, very little, and a normal amount). We would also like to note that the
+  Lynes lab at UConn has studied, to some extent, how specific antibodies can diminish the severity of both T1D and T2D.
 
 Initial Questions:
   1.) What are the differences in DNA methylation patterns in subjects with T1D and healthy individuals (control)?
-  2.) What are the differences in methylation patterns between subjects with T1D versus T2D (type 2 diabetes)?
+  2.) What are the differences in methylation patterns between subjects with T1D versus T2D?
   3.) Are there differences in the accumulation of alternative methylations that are age-dependent? Does this change with age of onset / diagnosis?
   4.) Do specific CpG islands accumulate methylation changes faster than others? If so, what genes are nearby?
   5.) Is there a correlation between increased methylation and decreased insulin production?
