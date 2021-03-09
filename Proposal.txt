@@ -1,9 +1,9 @@
 Overview & Motivation:
-  Those who have Type 1 Diabetes (T1D) do not produce a sufficient amount of insulin. While this is mainly diagnosed in children, teens, and young adults, it
+  Those who have Type 1 Diabetes (T1D) do not produce insulin. While this is mainly diagnosed in children, teens, and young adults, it
   actually can develop at any age (https://www.cdc.gov/diabetes/basics/what-is-type-1-diabetes.html).
   
-  Both of us were interested in exploring methylation differences and its contribution to disease. We chose diabetes because this is one of those unique diseases
-  where one type is genetic while the other isn't. Thus, we are curious to see if that in and of itself is a factor relating to alternative methylation.
+  Both of us were interested in exploring methylation differences and its contribution to disease. We chose diabetes because we are curious to see if alternative
+  methylation is a main factor in differential insulin production (producing none at all, very little, and a normal amount).
 
 Initial Questions:
   1.) What are the differences in DNA methylation patterns in subjects with T1D and healthy individuals (control)?
