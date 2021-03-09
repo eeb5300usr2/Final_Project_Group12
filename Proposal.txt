@@ -1,6 +1,9 @@
 Overview & Motivation:
   Those who have Type 1 Diabetes (T1D) do not produce a sufficient amount of insulin. While this is mainly diagnosed in children, teens, and young adults, it
-  actually can develop at any age (https://www.cdc.gov/diabetes/basics/what-is-type-1-diabetes.html). 
+  actually can develop at any age (https://www.cdc.gov/diabetes/basics/what-is-type-1-diabetes.html).
+  
+  Both of us were interested in exploring methylation differences and its contribution to disease. We chose diabetes because this is one of those unique diseases
+  where one type is genetic while the other isn't. Thus, we are curious to see if that in and of itself is a factor relating to alternative methylation.
 
 Initial Questions:
   1.) What are the differences in DNA methylation patterns in subjects with T1D and healthy individuals (control)?
@@ -18,6 +21,8 @@ Data:
   5.) https://www.ncbi.nlm.nih.gov/gds?Db=gds&DbFrom=bioproject&Cmd=Link&LinkName=bioproject_gds&LinkReadableName=GEO+DataSets&ordinalpos=1&IdsFromResult=126501
 
 Workflow / Analysis:
-  -Potentially use R to analyze / view Illumina data from published study
+  -Finalize which data will be used
+  -Potentially use R to analyze / view Illumina data from published studies
+  -Decide on which R packages will be best to analyze data, create charts, etc.
   -Develop user-friendly graphic to display differences
   -Analyze accuracy / completeness of data
