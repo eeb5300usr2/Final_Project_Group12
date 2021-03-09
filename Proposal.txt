@@ -10,7 +10,8 @@ Initial Questions:
   2.) What are the differences in methylation patterns between subjects with T1D versus T2D (type 2 diabetes)?
   3.) Are there differences in the accumulation of alternative methylations that are age-dependent? Does this change with age of onset / diagnosis?
   4.) Do specific CpG islands accumulate methylation changes faster than others? If so, what genes are nearby?
-  5.) How can we assess the accuracy and/or completeness of the data using tools we have learned in class?
+  5.) Is there a correlation between increased methylation and decreased insulin production?
+  6.) How can we assess the accuracy and/or completeness of the data using tools we have learned in class?
    
 Data:
   Most likely going to look at least two of the following sets:
