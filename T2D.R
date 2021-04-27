@@ -84,3 +84,30 @@ ex <- exprs(gset)
 # box-and-whisker plot
 dev.new(width=3+ncol(gset)/6, height=5)
 ord <- order(gs)  # order samples by group
+
+palette(c("#1B9E77", "#7570B3", "#E7298A", "#E6AB02", "#D95F02",
+          "#66A61E", "#A6761D", "#B32424", "#B324B3", "#666666"))
+par(mar=c(7,4,2,1))
+title <- paste ("GSE20553", "/", annotation(gset), sep ="")
+boxplot(ex[,ord], boxwex=0.6, notch=T, main=title, outline=FALSE, las=2, col=gs[ord])
+legend("topleft", groups, fill=palette(), bty="n")
+dev.off()
+
+# expression value distribution
+par(mar=c(4,4,2,1))
+title <- paste ("GSE20553", "/", annotation(gset), " value distribution", sep ="")
+plotDensities(ex, group=gs, main=title, legend ="topright")
+
+# UMAP plot (dimensionality reduction)
+ex <- na.omit(ex) # eliminate rows with NAs
+ex <- ex[!duplicated(ex), ]  # remove duplicates
+ump <- umap(t(ex), n_neighbors = 15, random_state = 123)
+par(mar=c(3,3,2,6), xpd=TRUE)
+plot(ump$layout, main="UMAP plot, nbrs=15", xlab="", ylab="", col=gs, pch=20, cex=1.5)
+legend("topright", inset=c(-0.15,0), legend=levels(gs), pch=20,
+col=1:nlevels(gs), title="Group", pt.cex=1.5)
+library("maptools")  # point labels without overlaps
+pointLabel(ump$layout, labels = rownames(ump$layout), method="SANN", cex=0.6)
+
+# mean-variance trend, helps to see if precision weights are needed
+plotSA(fit2, main="Mean variance trend, GSE20553")
