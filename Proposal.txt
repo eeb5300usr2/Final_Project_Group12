@@ -8,6 +8,10 @@ Overview & Motivation:
   methylation is a main factor in differential insulin production (producing none at all, very little, and a normal amount). We would also like to note that the
   Lynes lab at UConn has studied, to some extent, how specific antibodies can diminish the severity of both T1D and T2D.
 
+Related Work/Citations:
+Type 1 Diabetes-
+  >Data from the study "Identification of Type 1 Diabetes-Associated DNA Methylation Variable Positions That Precede Disease Diagnosis" was used for analysis in R. The subjects in this study were monozygotic (MZ) twins; the twins were either normal MZ or T1D discordant, where one twin had T1D and the other did not. The authors of this study conducted genome-wide DNA methylation analysis of CD4 tissue and CD14+ monocytes from both types of MZ twins enrolled in the study. This analysis was done with Illumina 27K, which allows for DNA methylation measurements at 27,458 different CpG sites across the genome. The main objective of this study was to examine methylation differences between T1D and Unaffected MZ twins to identify T1D methylation variable positions (MVPs).
+
 Initial Questions:
   1.) What are the differences in DNA methylation patterns in subjects with T1D and healthy individuals (control)?
   2.) What are the differences in methylation patterns between subjects with T1D versus T2D?
